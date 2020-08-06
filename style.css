@@ -1,0 +1,168 @@
+body{
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+#capa{
+    background: url(img/quadro_negro.jpg);
+    background-size: cover;
+    text-align: center;
+    color: cornsilk;
+    height: 550px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-shadow: rgba(124, 172, 36, 0.76) 2px -2px;
+      
+   
+}
+h1{
+    font-size: 50px;    
+    margin: 10% 20% 0 20%;  
+    letter-spacing: 10px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    
+    
+
+}
+h2{
+    font-size: 25px;
+    border-top: solid orchid 5px;
+    margin: 2% 20% 1% 20%;
+    font-family: 'Dancing Script', cursive;
+    
+
+}
+#link-capa{
+    text-decoration: none;
+    color: cornsilk;
+    border: solid wheat 3px;
+    padding: 5px 30px;
+    border-radius: 20px;
+    
+}
+#link-capa:hover{
+    background-color: teal;
+    font-size: 30px;
+    border: double pink 10px;
+    color: red;
+    
+
+}
+#principal{
+    background-color: rosybrown;
+    width: 100%;
+    line-height: 2.5;
+    padding: 0;
+    
+}
+.coluna{
+    float: left;
+    padding: 1% 3%;   
+
+}
+.duas{    
+    width: 40%;    
+        
+}
+.tres{    
+    width: 25%;    
+    
+    
+}
+.quatro{    
+    width: 15%;     
+    
+}
+
+.justificado{
+    text-align: justify;
+}
+.estudo{
+    width: 100%;
+}
+
+
+
+#metas{
+    background-color: rgba(240, 128, 128, 0.637);
+}
+.icone{
+    width: 60px;
+    height: 60px;
+}
+#logo{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+}
+header{
+    background-color: midnightblue;
+    position: fixed;
+   width: 100%;
+   z-index: 10;
+   height: 60px;
+   margin:0;
+}
+nav{
+    float: right;
+    
+}
+ul{
+    list-style: none;
+    margin: 0;
+
+}
+li{
+    float: left;
+    color: mistyrose;
+    padding: 17px;
+    
+    
+}
+li:hover{
+    background-color: purple;
+    transition: 1s;
+
+}
+li a{
+    text-decoration: none;
+    color: moccasin;
+    font-size: 18px;
+    font-weight: bold;
+    
+
+}
+footer{
+    background-color: rgba(102, 51, 153, 0.404);
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    clear: both;
+
+}
+/*responsividade*/
+@media screen and (max-width:768px){
+
+    .coluna, .duas, .tres, .quatro{
+        display: block;
+        width: 90%;
+    }
+    #principal, #metas, #escola, #contato{
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 20px 5% 0;
+        
+    }
+    h1{
+        margin: 20% 0 0;
+        font-size: 40px  
+    }
+    h2{
+        margin: 10px 5% 5% 5%;
+        font-size: 25px;
+    }
+    #menu{
+        visibility: hidden;
+    }
+}
